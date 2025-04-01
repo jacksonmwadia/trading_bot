@@ -1,0 +1,25 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables
+.env
+
+# Ignore virtual environment folders
+venv/
+env/
+/env
+
+# Ignore dependency files
+*.log
+*.sqlite3
+
+# Ignore compiled and cache files
+*.egg-info/
+*.idea/
+.DS_Store
+
+# Ignore Heroku/Railway deployment files
+*.procfile
